@@ -122,7 +122,6 @@ class TimelinePoint {
     this.isFirst = isFirst;
     var cardEl = new el('div', 'card');
     if (this.tooltip) {
-      console.log(this.tooltip)
       cardEl.setTooltip(this.tooltip);
     }
     var infoEl = new el('div', 'info');
