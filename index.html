@@ -35,6 +35,7 @@
                     <a href="https://www.facebook.com/profile.php?id=100010384238175"><i class='bx bxl-facebook'></i></a>
                     <a href="https://www.instagram.com/m7md_0963/"><i class='bx bxl-instagram' ></i></a>
                     <a href="https://www.linkedin.com/in/mohammad-alayoub-1297b81a7/"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="mailto:m.alayoub98@gmail.com"><i class='bx bxs-envelope'></i></a>
                 </div>
                 <!-- <a href="#" class="btn">Download CV</a> -->
             </div>
@@ -163,15 +164,15 @@
 
             <form action="#">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email Address">
+                    <input id="fullNameInput" type="text" placeholder="Full Name">
+                    <input id="mailInput" type="email" placeholder="Email Address">
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Mobile Number">
-                    <input type="text" placeholder="Email Subject">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input id="numberInput" type="number" placeholder="Mobile Number">
+                    <input id="subjectInput" type="text" placeholder="Email Subject">
+                    <textarea id="bodyInput" name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
                 </div>
-                <input type="submit" value="Send" class="btn">
+                <input onclick="sendMail()" type="submit" value="Send" class="btn">
             </form>
         </section>
 

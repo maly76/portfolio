@@ -272,4 +272,23 @@ function init () {
   }
 }
 
+function sendMail() {
+  const fullName = document.getElementById('fullNameInput').value;
+  const number = document.getElementById('numberInput').value;
+  const subject = document.getElementById('subjectInput').value;
+  const body = document.getElementById('bodyInput').value;
+  const mail = document.getElementById('mailInput').value;
+  
+  let mailSubject = 'Request from ' + fullName + ' - ' + subject;
+  let mailBody = '';
+  if (number != '') {
+    mailBody += 'Number: ' + number + '%0D%0A';
+  }
+  if (mail != '') {
+    mailBody += 'Email: ' + mail + '%0D%0A%0D%0A';
+  }
+  mailBody += body;
+  window.open('mailto:m.alayoub98@gmail.com?subject='+mailSubject+'&body=' + mailBody);
+}
+
 init();
