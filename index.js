@@ -191,9 +191,9 @@ const skills = [
 const timelines = [
   new Timeline('Education', [
     new TimelinePoint('2023 - Today', 'Master of Science (Computer Science at the THM in Germany-Gießen)'),
-    new TimelinePoint('2019 - 2022', 'Bachelor of Science (Computer Science at the THM in Germany-Gießen)')
+    new TimelinePoint('2019 - 2022', 'Bachelor of Science (Computer Science at the THM in Germany-Gießen)'),
+    new TimelinePoint('2017 - 2019', 'vocational diploma (business informatics)')
     .setTooltip('In German it calls Fachabitur, it is a certificate entitling students to study at a University of Applied Sciences'),
-    new TimelinePoint('2017 - 2019', 'vocational diploma (business informatics)'),
     new TimelinePoint('2016', 'Language course with B1-Certificate in German'),
     new TimelinePoint('2004 - 2015', 'School (Grade 11)'),
   ]),
